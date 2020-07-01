@@ -10,6 +10,8 @@
             "string",
             "null"
           ],
+          "codelist": "+partyRoles.csv",
+          "openCodelist": true
         },
         "contractingUnit": {
           "title": "Contracting unit",
@@ -19,6 +21,8 @@
             "string",
             "null"
           ],
+          "codelist": "+partyRoles.csv",
+          "openCodelist": true
         },
         "technicalUnit": {
           "title": "Technical unit",
