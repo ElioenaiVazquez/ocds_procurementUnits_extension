@@ -1,0 +1,17 @@
+{
+  "name": {
+    "en": "Procurement units"
+  },
+  "description": {
+    "en": "asdf"
+  },
+  "documentationUrl": {
+    "en": ""
+  },
+  "compatibility": [
+    "1.1"
+  ],
+  "schemas": [
+    "release-schema.json"
+  ]
+}

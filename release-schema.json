@@ -1,0 +1,13 @@
+{
+  "definitions": {
+    "Planning": {
+      "properties": {
+        "requestingUnit": {
+          "title": "Requesting unit",
+          "description": "The entity managing the procurement. This may be different from the buyer who pays for, or uses, the items being procured.",
+          "$ref": "#/definitions/OrganizationReference"
+        }
+      }
+    }
+  }
+}
