@@ -5,17 +5,31 @@
         "requestingUnit": {
           "title": "Requesting unit",
           "description": "The entity managing the procurement. This may be different from the buyer who pays for, or uses, the items being procured.",
-          "$ref": "#/definitions/OrganizationReference"
+          "$ref": "#/definitions/OrganizationReference",
+          "type": [
+            "string",
+            "null"
+          ],
         },
         "contractingUnit": {
           "title": "Contracting unit",
           "description": "The authority in the agency or entity to carry out contracting procedures in order to acquire or lease goods or contract the provision of services required by the agency or entity in question",
-          "$ref": "#/definitions/OrganizationReference"
+          "$ref": "#/definitions/OrganizationReference",
+          "type": [
+            "string",
+            "null"
+          ],
         },
         "technicalUnit": {
           "title": "Technical unit",
           "description": "The authority in the agency or entity that prepares the technical specifications to be included in the contracting procedure, evaluates the technical proposal of the propositions and is responsible for answering the questions that the bidders ask about these aspects; The technical area may also have the character of the requesting area.",
-          "$ref": "#/definitions/OrganizationReference"
+          "$ref": "#/definitions/OrganizationReference",
+          "type": [
+            "string",
+            "null"
+          ],
+          "codelist": "+partyRoles.csv",
+          "openCodelist": true
         }
       }
     }
