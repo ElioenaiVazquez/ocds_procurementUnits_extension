@@ -10,7 +10,7 @@
             "string",
             "null"
           ],
-          "codelist": "+partyRoles.csv",
+          "codelist": "+partyRole.csv",
           "openCodelist": true
         },
         "contractingUnit": {
@@ -21,7 +21,7 @@
             "string",
             "null"
           ],
-          "codelist": "+partyRoles.csv",
+          "codelist": "+partyRole.csv",
           "openCodelist": true
         },
         "technicalUnit": {
@@ -32,7 +32,7 @@
             "string",
             "null"
           ],
-          "codelist": "+partyRoles.csv",
+          "codelist": "+partyRole.csv",
           "openCodelist": true
         }
       }
